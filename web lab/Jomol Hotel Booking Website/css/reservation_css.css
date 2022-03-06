@@ -1,0 +1,193 @@
+*{
+    font-family: 'Rubik';
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+}
+
+#reservation_main_container{
+    position: absolute;
+    height: 90.1%;
+    overflow: auto;
+}
+
+#reserve_hostel_details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#reserve_hostel_details *{
+    text-align: center;
+}
+
+#reserve_hostel_details div{
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    justify-content: center;
+    background-color: #fff;
+}
+
+#reserve_hostel_details div *{
+    margin-top: 15px;
+}
+
+#reserve_hostel_details * img{
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+}
+
+#reserve_des_txt{
+    color:red;
+    width: 50%;
+    margin: 20px 0px;
+}
+
+#reserve_end_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    margin: 50px 30px;
+}
+
+#reserve_end_div hr{
+    height: 3px;
+    flex: 1;
+    background-color: rgb(24, 22, 22);
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+#reserve_end_div h3{
+    flex: 0.5;
+}
+
+#room_cat_book_btn{
+    padding: 5px 15px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#room_cat_book_btn:hover{
+    cursor: pointer;
+}
+
+#book_dialog_form_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.658);
+    display: none;
+}
+
+#room_book_form_div{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    transform: translate(-40%, -45%);
+    background-color: white;
+    box-shadow: 5px 5px 15px 15px rgba(0, 0, 0, 0.185);
+    padding: 20px;
+    text-align: center;
+}
+
+#room_book_form_div div{
+    text-align: end;
+}
+
+#room_book_form_close{
+    padding: 5px;
+    color:red;
+    font-size: 30px;
+}
+
+#room_book_form_close:hover{
+    color:rgb(185, 0, 0);
+    cursor: pointer;
+}
+
+#room_book_form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#room_book_form table, #room_book_form table tr, #room_book_form table tr td label{
+    text-align: start;
+    vertical-align: top;
+}
+
+#room_book_form table tr td input{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#rbook_checkin_time{
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#rbook_address{
+    max-width: 230px;
+    min-width: 230px;
+    min-height: 100px;
+    max-height: 100px;
+    border: 2px solid grey;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#rbook_submit_btn, #rbook_cancel_btn{
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+
+#rbook_submit_btn:hover{
+    background-color: rgb(0, 92, 0);
+}
+
+#rbook_cancel_btn:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+#room_book_table_twotd{
+    text-align: end;
+    margin-left: 20px;
+}
+
+#rbook_cancel_btn{
+    background-color: rgb(201, 201, 201);
+    color: black;
+    font-weight: bold;
+}
+
+#rbook_submit_btn:hover, #rbook_cancel_btn:hover{
+    cursor: pointer;
+}

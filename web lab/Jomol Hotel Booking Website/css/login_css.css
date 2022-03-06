@@ -1,0 +1,69 @@
+*{
+    font-family: 'Rubik';
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../hotel_book_bg.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+#login_form_container{
+    margin-top: 50px;
+}
+
+#login_form, #signup_form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+#login_form table, #signup_form table{
+    color: white;
+}
+
+#login_form table tr td p, #signup_form table tr td p{
+    font-size: 14px;
+}
+
+input{
+    padding: 7px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #f1f1f1;
+}
+
+#login_form div, #signup_form div{
+    margin-top: 10px;
+}
+
+#login_submit, #signup_submit{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#login_submit:hover, #signup_submit:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+#log_signbtn, #sign_logbtn{
+    padding: 5px 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
